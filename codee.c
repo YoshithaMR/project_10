@@ -253,26 +253,12 @@ void borrowBook() {
     printf("Book borrowed successfully.\n");
 }
 
-void returnBook() {
-    int sid;
-    printf("Enter student ID: ");
-    scanf("%d", &sid);
 
-    if (sid < 1 || sid > totalStudents) {
-        printf("Invalid ID.\n");
-        return;
-    }
-
-    Student *s = &students[sid - 1];
-    if (s->borrowedBookId == -1) {
-        printf("No book to return.\n");
-        return;
-    }
 
   
    
 
 
 
-    printf("Book borrowed successful
+   
 
