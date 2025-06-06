@@ -266,11 +266,5 @@ void returnBook() {
     Student *s = &students[sid - 1];
     if (s->borrowedBookId == -1) {
         printf("No book to return.\n");
-        return;
-    }
-
-    books[s->borrowedBookId - 1].quantity++;
-    s->borrowedBookId = -1;
-    printf("Book returned successfully.\n");
-}
+   
 
