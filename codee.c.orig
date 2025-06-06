@@ -253,6 +253,7 @@ void borrowBook() {
     printf("Book borrowed successfully.\n");
 }
 
+<<<<<<< HEAD
 void returnBook() {
     int sid;
     printf("Enter student ID: ");
@@ -266,12 +267,12 @@ void returnBook() {
     Student *s = &students[sid - 1];
     if (s->borrowedBookId == -1) {
         printf("No book to return.\n");
-<<<<<<< HEAD
         return;
     }
 
   
-=======
    
 
->>>>>>> b1
+=======
+>>>>>>> b2
+
