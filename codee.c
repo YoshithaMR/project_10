@@ -269,8 +269,4 @@ void returnBook() {
         return;
     }
 
-    books[s->borrowedBookId - 1].quantity++;
-    s->borrowedBookId = -1;
-    printf("Book returned successfully.\n");
-}
-
+  
